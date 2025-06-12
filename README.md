@@ -1,0 +1,83 @@
+# MCP Test Application
+
+A simple test application that demonstrates the integration of an LLM-powered agent with MCP (Model Context Protocol). This application sends prompts to an LLM and streams the resulting output.
+The default configuration is setup to run [IBM Cloud MCP Server](https://github.com/IBM-Cloud/ibmcloud-mcp-server)
+
+## Features
+
+- Integration with OpenAI's GPT-4 model
+- Streaming response handling
+- MCP agent implementation for structured interactions
+- Configuration-based setup
+
+## Prerequisites
+
+- Python 3.13 or higher
+- OpenAI API key (set in .env or OPENAI_API_KEY env var)
+- MCP server configuration (See example server_config.json)
+- [IBM Cloud MCP Server](https://github.com/IBM-Cloud/ibmcloud-mcp-server)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd mcp-test
+```
+
+2. Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Unix/macOS
+# or
+.venv\Scripts\activate  # On Windows
+```
+
+3. Install dependencies:
+
+```bash
+pip install -e .
+```
+
+## Configuration
+
+1. Create a `.env` file in the project root with your OpenAI API key:
+
+```bash
+OPENAI_API_KEY=your-api-key-here
+```
+
+2. Ensure your `server_config.json` is properly configured with your MCP server settings.
+
+## Usage
+
+Run the assistant:
+
+```bash
+python assistant.py
+```
+
+The application will:
+
+1. Connect to the MCP server using the provided configuration
+2. Initialize an LLM agent with GPT-4
+3. Stream responses from the agent's interactions
+
+## Project Structure
+
+- `assistant.py` - Assistant application example
+- `agent.py` - Agent application implementation example
+- `server_config.json` - MCP server configuration
+- `pyproject.toml` - Project dependencies and metadata
+
+## Dependencies
+
+- langchain-openai >= 0.3.22
+- mcp-use >= 1.3.0
+
+## License
+
+[Add your license information here]
+
