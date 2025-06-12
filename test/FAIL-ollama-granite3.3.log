@@ -1,0 +1,101 @@
+uv run ibmcloud-assist.py
+DEBUG:asyncio:Using selector: KqueueSelector
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "DynamicModel" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_aspera-download" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_aspera-upload" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-class-get" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-cors-delete" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-cors-get" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-cors-put" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-create" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-delete" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-head" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_bucket-location-get" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_buckets" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_buckets-extended" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_download" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_list-objects-v2" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_multipart-upload-abort" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_multipart-upload-complete" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_multipart-upload-create" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_multipart-uploads" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-copy" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-delete" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-get" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-head" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-put" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_object-versions" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_objects" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_objects-delete" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_part-upload" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_part-upload-copy" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_parts" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_cos_upload" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+/Users/chrism1/Code/ai/agentic/mcp/mcp-test/.venv/lib/python3.13/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "json" in "ibmcloud_resource_search" shadows an attribute in parent "BaseModel"
+  warnings.warn(
+DEBUG:httpcore.connection:connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x111932510>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Thu, 12 Jun 2025 15:41:59 GMT'), (b'Transfer-Encoding', b'chunked')])
+INFO:httpx:HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+
+Result: ```json
+{
+  "function_call": "ibmcloud_resource_groups",
+  "arguments": {
+    "default": true,
+    "output": "JSON"
+  }
+}
+```
+```
+{
+  "data": [
+    {
+      "id": "crn:v1:staging:private:iam::::group:9c82e043-6ec7-44a8-b7dc-5d5ea1f1f823",
+      "name": "default"
+    }
+  ]
+}
+```
+FAILED
+context canceled
